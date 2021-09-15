@@ -11,7 +11,7 @@ source:
   sha256: e9def20b9ebdecf8830d91451c8e4d5b90918a08f680a16154ac69059c28c217
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -41,3 +41,4 @@ about:
 extra:
   recipe-maintainers:
     - jtpio
+    - fcollonval
