@@ -11,7 +11,7 @@ source:
   sha256: e9def20b9ebdecf8830d91451c8e4d5b90918a08f680a16154ac69059c28c217
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -33,7 +33,7 @@ test:
     - pip
 
 about:
-  home: https://github.com/jtpio/jupyterlab-cell-flash
+  home: https://github.com/jupyterlab-contrib/jupyterlab-cell-flash
   summary: JupyterLab extension to show a flash effect when a cell is executed
   license: BSD-3-Clause
   license_file: LICENSE
@@ -41,3 +41,4 @@ about:
 extra:
   recipe-maintainers:
     - jtpio
+    - fcollonval
