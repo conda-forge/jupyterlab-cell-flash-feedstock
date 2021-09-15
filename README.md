@@ -1,7 +1,7 @@
 About jupyterlab-cell-flash
 ===========================
 
-Home: https://github.com/jtpio/jupyterlab-cell-flash
+Home: https://github.com/jupyterlab-contrib/jupyterlab-cell-flash
 
 Package license: BSD-3-Clause
 
