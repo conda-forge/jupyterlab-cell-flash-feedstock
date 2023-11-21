@@ -1,5 +1,5 @@
 {% set name = "jupyterlab-cell-flash" %}
-{% set version = "0.3.5" %}
+{% set version = "0.4.0" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jupyterlab-cell-flash-{{ version }}.tar.gz
-  sha256: 70091519db2ac3985392a05d3234e6dbd620292ca09a1ce3cbe3389b82412996
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: f3768b8c62f7e8a732e52c71d709e6313771374d9ab4d16d37d67c38547d1789
 
 build:
   number: 0
